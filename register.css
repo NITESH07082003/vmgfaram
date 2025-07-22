@@ -1,0 +1,85 @@
+/* Reset + Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #eef9f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.register-container {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Form header */
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #155d27;
+}
+
+/* Field layout */
+.field-row {
+  display: flex;
+  gap: 10px;
+}
+.field-group {
+  flex: 1;
+}
+
+/* Inputs */
+.register-form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: 500;
+}
+.register-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Anchor as button */
+.btn-submit {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: #1e7e34;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btn-submit:hover {
+  background: #155d27;
+}
+
+/* Message text */
+.message {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+.message a {
+  color: #1e7e34;
+  text-decoration: none;
+}
+.message a:hover {
+  text-decoration: underline;
+}

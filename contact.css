@@ -1,0 +1,93 @@
+* { box-sizing: border-box; margin:0; padding:0; }
+body, html { font-family: Arial, sans-serif; color:#333; min-height:100vh; }
+
+/* Header/Nav styling remains unchanged */
+
+/* Contact Page Layout */
+.contact-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.contact-page h1 {
+  font-size: 2.8rem;
+  color: #155d27;
+  margin-bottom: 30px;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+/* Form Container */
+.contact-container form {
+  flex: 1 1 300px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+.contact-container form label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: 600;
+}
+.contact-container form input[type="text"],
+.contact-container form input[type="email"],
+.contact-container form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+.contact-container form input:focus,
+.contact-container form textarea:focus {
+  border-color: #1e7e34;
+  outline: none;
+}
+.contact-container form input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  background: #1e7e34;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+.contact-container form input[type="submit"]:hover {
+  background: #155d27;
+  transform: scale(1.02);
+}
+.contact-container form input[type="submit"]:active {
+  transform: scale(0.98);
+}
+
+/* Contact Info Box */
+.contact-info {
+  flex: 1 1 300px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+.contact-info h2 {
+  margin-bottom: 20px;
+  color: #155d27;
+}
+.contact-info p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+/* Footer styling remains unchanged */
